@@ -1,12 +1,8 @@
-LeapDebug (Google Chrome extension) 
+Leap Motion Directv Controller (Google Chrome extension)
 ==============
 
-Chrome extension for debugging the Leap Motion controller setup. Once installed, opens
-an overlay with options to connect the Leap controller. The debug tool uses the [LeapJs](http://js.leapmotion.com/)
-API to listen for animation frame updates and allows you to record incoming data for later
-playback without the device connected.
+Chrome extension for controlling your DIRECTV Set Top box with Leap Motion.
 
-Drawing code based on Isaac Cohen's tutorial: [http://js.leapmotion.com/tutorials/welcome](http://js.leapmotion.com/tutorials/welcome)
 
 ## Quick start
 
@@ -21,7 +17,7 @@ To debug Chrome Extension:
 
 ## Helpful hints
 
-This app was built using AngularJS, Bootstrap 3.0, Animate.css and LeapJs.
+This app was built using AngularJS, Bootstrap 3, Animate.css and LeapJS.
 
 ## Code Structure
 
@@ -31,15 +27,31 @@ This app was built using AngularJS, Bootstrap 3.0, Animate.css and LeapJs.
 ## Extras
 - Uses animate.css to create smooth transitions
 
-## TODOs / Future Versions
-- More granular output for Live Stats view (expand menus for showing 2d/3d coordinates)
-- Better HTML canvas drawing for Live Hand & Finger Tracking
-- End-to-end unit tests for leap_handler.js
+## Commands & Gestures
+
+Basic:
+Load Guide: Circle Gesture
+
+Guide:
+Move Down: Swipe Down
+Move Up: Swipe Up
+Move Left: Swipe Left
+Move Right: Swipe Right
+
+DVR Playback:
+Pause/Stop: Stop Hand
+Rewind: Swipe Right
+Fast Forward: Swipe Left
+
 
 ## Authors
 
 **Sean Janis**
 + [http://seanjanis.com](http://seanjanis.com)
+
+## Thanks
+DIRECTV Set Top API: [http://whitlockjc.github.io/directv-remote-api/](http://whitlockjc.github.io/directv-remote-api/)
+LeapJS Tutorial: [http://js.leapmotion.com/tutorials/welcome](http://js.leapmotion.com/tutorials/welcome)
 
 
 ## Copyright and license

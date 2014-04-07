@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "LeapDebug",
-  "description": "<Unofficial> Chrome extension for debugging and recording Leap Motion data.",
+  "name": "Leap Motion DIRECTV Controller",
+  "description": "Chrome extension for controlling Directv set top box with Leap Motion.",
   "version": "0.1",
   "background": {
     "scripts": [
