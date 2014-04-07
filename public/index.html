@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app.leapangular" ng-controller="MainCtrl" ng-csp>
+  <head>
+    <meta charset="utf-8">
+    <title>LeapDebug</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap 3.0 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/leapdebug.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="header">
+          <h4 class="logo-header-text">LeapDebug</h4>
+        </div>
+
+        <hr>
+
+        <div class="btn-group btn-group-tabs">
+            <button type="button" class="btn btn-default" link-click="/live">Live</button>
+            <button type="button" class="btn btn-default" link-click="/playback">Playback</button>
+        </div>
+
+        <hr>
+
+        <!-- Main content block -->
+        <div class="container">
+
+        </div>
+
+        <div ng-view></div>
+
+        <hr>
+
+        <div class="footer-text">
+            <p>&copy; Sean Janis</p>
+        </div>
+
+    </div>
+
+  </body>
+
+
+  <!-- The HTML5 shim, for IE6-8 support of HTML elements -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+      <script src="js/vendor/jquery.min.js"></script>
+      <script src="js/vendor/bootstrap.min.js"></script>
+      <script src="js/angular/lib/angular.js"></script>
+      <script src="js/angular/lib/angular-webstorage.js"></script>
+      <script src="js/vendor/leap.min.js"></script>
+      <script src="js/core/leap_handler.js"></script>
+      <script src="js/angular/app.js"></script>
+      <script src="js/angular/directives.js"></script>
+      <script src="js/angular/controllers/controllers.js"></script>
+      <script src="js/angular/controllers/c_view_live.js"></script>
+      <script src="js/angular/controllers/c_view_playback.js"></script>
+      <script src="js/angular/routes.js"></script>
+
+</html>
