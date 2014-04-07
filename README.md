@@ -1,4 +1,4 @@
-Leap Motion Directv Controller (Google Chrome extension)
+Leap Motion DIRECTV Controller (Google Chrome extension)
 ==============
 
 Chrome extension for controlling your DIRECTV Set Top box with Leap Motion.

@@ -25,17 +25,17 @@ lm.connect();
 // Leap Motion device callbacks for updating status icon.
 //
 function onReady() {
-    chrome.browserAction.setIcon({path: ICON_DEVICE_ACTIVE});
+  chrome.browserAction.setIcon({path: ICON_DEVICE_ACTIVE});
 }
 
 function onConnected() {
-    chrome.browserAction.setIcon({path: ICON_DEVICE_INACTIVE});
+  chrome.browserAction.setIcon({path: ICON_DEVICE_INACTIVE});
 }
 
 function onDeviceConnected() {
-    chrome.browserAction.setIcon({path: ICON_DEVICE_ACTIVE});
+  chrome.browserAction.setIcon({path: ICON_DEVICE_ACTIVE});
 }
 
 function onDeviceDisconnected() {
-    chrome.browserAction.setIcon({path: ICON_DEVICE_INACTIVE});
+  chrome.browserAction.setIcon({path: ICON_DEVICE_INACTIVE});
 }
