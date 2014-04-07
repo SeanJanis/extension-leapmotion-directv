@@ -13,7 +13,7 @@ To debug Chrome Extension:
 - Navigate to: [chrome://extensions/](chrome://extensions/)
 - Ensure the 'Developer Mode' checkbox is enabled
 - Click 'Load unpacked extension...'
-- Select the LeapDebug code directory and Google Chrome will automatically load the extension for testing.
+- Select the Leap+DIRECTV code directory and Google Chrome will automatically load the extension for testing.
 
 ## Helpful hints
 
@@ -29,16 +29,16 @@ This app was built using AngularJS, Bootstrap 3, Animate.css and LeapJS.
 
 ## Commands & Gestures
 
-Basic:
+**Basic:**
 + Load Guide: Circle Gesture
 
-Guide:
+**Guide:**
 + Move Down: Swipe Down
 + Move Up: Swipe Up
 + Move Left: Swipe Left
 + Move Right: Swipe Right
 
-DVR Playback:
+**DVR Playback:**
 + Pause/Stop: Stop Hand
 + Rewind: Swipe Right
 + Fast Forward: Swipe Left
