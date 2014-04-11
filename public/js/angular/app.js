@@ -3,6 +3,6 @@
 //
 // Main app module setup
 //
-var mainApp = angular.module("app.leapangular", ['webStorageModule']);
+var mainApp = angular.module("app.leapangular", ['webStorageModule', 'ngRoute']);
 
 
